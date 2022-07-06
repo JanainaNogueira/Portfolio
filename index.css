@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    color: #fff;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 7.61%;
+    background-color: rgb(48,38,115,0.7);
+}
+.image{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.image__logo{
+    height: 75%;
+    width: 30%;
+    margin-left: 7.2%;
+}
+.menu{
+    display: flex;
+    width: 50%;
+}
+.menu ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.menu ul li{
+    display: flex;
+    width: 26%;
+    list-style: none;
+    align-items: center;
+}
