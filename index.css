@@ -1,13 +1,12 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'IBM Plex Serif', serif;
 }
-
 body{
     height: 100%;
     color: #fff;
 }
-
 .header{
     display: flex;
     width: 100%;
@@ -21,8 +20,8 @@ body{
 }
 .image__logo{
     height: 75%;
-    width: 30%;
-    margin-left: 7.2%;
+    width: 15%;
+    margin-left: 9%;
 }
 .menu{
     display: flex;
@@ -32,10 +31,18 @@ body{
     display: flex;
     width: 100%;
     justify-content: space-around;
+    align-items: center;
 }
 .menu ul li{
     display: flex;
-    width: 26%;
+    width: 18%;
+    height: 35%;
     list-style: none;
     align-items: center;
+    font-weight: 600;
+    font-size: 105%;
+    justify-content: center;
+}
+.menu ul li:hover{
+    color:#b69938;
 }
