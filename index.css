@@ -102,3 +102,36 @@ body,html{
     display: flex;
     height: 60%;
 }
+/*section project*/
+.project{
+    display: flex;
+    background-color: #7463C0;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards__project{
+    display: flex;
+    width: 25%;
+    height: 30%;
+    border: 1px solid #000;
+    background-color: rgba(94, 79, 158, 0.753);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.image-engine{
+    display: flex;
+    height: 50%;
+}
+.image-engine img:hover{
+    cursor: pointer;
+}
