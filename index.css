@@ -74,7 +74,6 @@ body,html{
     justify-content: space-evenly;
     font-weight: 300;
 }
-
 .button-curriculum{
     width: 50%;
     height: 15%;
@@ -91,4 +90,15 @@ body,html{
     display: flex;
     width: 50%;
     height: 80%;
+}
+/*section stacks*/
+.stacks{
+    display: flex;
+    height: 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    height: 60%;
 }
