@@ -131,7 +131,5 @@ body,html{
 .image-engine{
     display: flex;
     height: 50%;
-}
-.image-engine img:hover{
     cursor: pointer;
 }
