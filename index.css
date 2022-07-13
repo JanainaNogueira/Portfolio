@@ -93,7 +93,7 @@ body,html{
     height: 80%;
 }
 /*section stacks*/
-.stacks{
+.stacks, .contact{
     display: flex;
     height: 25%;
     justify-content: space-around;
@@ -134,3 +134,5 @@ body,html{
     height: 50%;
     cursor: pointer;
 }
+/*section contact*/
+
