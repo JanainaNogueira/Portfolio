@@ -48,6 +48,7 @@ body,html{
 }
 .menu ul li:hover{
     color:#b69938;
+    cursor: pointer;
 }
 /*section home*/
 .home{
