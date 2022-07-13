@@ -135,4 +135,6 @@ body,html{
     cursor: pointer;
 }
 /*section contact*/
-
+.image-contact{
+    display: flex;
+}
