@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     font-family: 'IBM Plex Serif', serif;
+    text-decoration: none;
+    color: #fff;
 }
 body,html{
     height: 100%;
@@ -46,7 +48,7 @@ body,html{
     font-size: 105%;
     justify-content: center;
 }
-.menu ul li:hover{
+.menu a:hover{
     color:#b69938;
     cursor: pointer;
 }
@@ -82,7 +84,6 @@ body,html{
     background-color:transparent;
     border-radius: 44px;
     font-weight: 600;
-    color: #fff;
 }
 .button-curriculum:hover{
     background-color:rgb(107,90,32);
