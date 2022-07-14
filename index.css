@@ -87,6 +87,7 @@ body,html{
 }
 .button-curriculum:hover{
     background-color:rgb(107,90,32);
+    cursor: pointer;
 }
 .perfil-image{
     display: flex;
@@ -103,6 +104,18 @@ body,html{
 .logo{
     display: flex;
     height: 60%;
+}
+/*Imagem coelho*/
+.image-rabbit-stacks{
+    position: absolute;
+    top: 112%;
+    height: 18%;
+    right: 1%;
+    width: 15%;
+}
+.image-rabbit-stacks img{
+    width: 100%;
+    height: 100%;
 }
 /*section project*/
 .project{
@@ -138,6 +151,17 @@ body,html{
 /*section contact*/
 .image-contact{
     display: flex;
+}
+/*coelho contact*/
+.image-rabbit-contact{
+    position: absolute;
+    height: 15%;
+    width: 10%;
+    left: 45%;
+}
+.image-rabbit-contact img{
+    width: 100%;
+    height: 100%;
 }
 /*footer*/
 .footer{
