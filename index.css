@@ -217,6 +217,17 @@ body,html{
     .perfil-image{
         display: none;
     }
+    /*phone-stacks*/
+    .logo{
+        display: flex;
+        height: 50%;
+    }
+    /*Imagem coelho*/
+    .image-rabbit-stacks{
+        top: 114.5%;
+        height: 15%;
+        width: 30%;
+    }
     .contact{
         display: none;
     }
