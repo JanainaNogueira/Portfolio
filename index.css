@@ -183,9 +183,6 @@ body,html{
 
 @media screen and (max-width:425px){
     /*header*/
-    .image{
-        width:30%;
-    }
     .image__logo{
         width: 60%;
     }
@@ -226,6 +223,22 @@ body,html{
     .image-rabbit-stacks{
         top: 114.5%;
         height: 15%;
+        width: 30%;
+    }
+    /*project-phone*/
+    .cards{
+        flex-direction: column;
+    }
+    .cards__project{
+        width: 100%;
+        align-items: center;
+    }
+    .cards__project:nth-child(n+4){
+        display: none;
+    }
+    .image-engine{
+        display: flex;
+        height: 60%;
         width: 30%;
     }
     .contact{
