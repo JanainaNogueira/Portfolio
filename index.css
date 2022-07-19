@@ -191,8 +191,9 @@ body,html{
     }
     .menu ul li{
         display: flex;
+        justify-content: space-around;
         width:33%;
-        font-size: 85%;
+        font-size: 76%;
     }
     /*section home*/
     .home{
@@ -237,11 +238,16 @@ body,html{
         display: none;
     }
     .image-engine{
-        display: flex;
         height: 60%;
         width: 30%;
     }
-    .contact{
-        display: none;
+    /*contact-phone*/
+    .image-rabbit-contact{
+        height: 8%;
+        width: 14%;
+    }
+    .image-contact img{
+        display: flex;
+        width: 95%;
     }
 }
