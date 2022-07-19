@@ -177,3 +177,23 @@ body,html{
     justify-content: center;
     align-items: center;
 }
+
+/*cellphone media*/
+
+@media screen and (max-width:425px){
+    /*header*/
+    .image{
+        width:30%;
+    }
+    .image__logo{
+        width: 60%;
+    }
+    .menu{
+        width: 62%;
+    }
+    .menu ul li{
+        display: flex;
+        width:33%;
+        font-size: 85%;
+    }
+}
