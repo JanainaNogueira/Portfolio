@@ -76,6 +76,7 @@ body,html{
     height: 30%;
     justify-content: space-evenly;
     font-weight: 300;
+    text-align: justify;
 }
 .button-curriculum{
     width: 50%;
@@ -189,11 +190,34 @@ body,html{
         width: 60%;
     }
     .menu{
-        width: 62%;
+        width: 70%;
     }
     .menu ul li{
         display: flex;
         width:33%;
         font-size: 85%;
+    }
+    /*section home*/
+    .home{
+        display: flex;
+        width: 100%;
+    }  
+    .info::before{
+        display: none;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+    }
+    .button-curriculum{
+        height: 20%;
+    }
+    .perfil-image{
+        display: none;
+    }
+    .contact{
+        display: none;
     }
 }
