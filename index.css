@@ -251,7 +251,7 @@ body,html{
     }
 }
 /*tablet and ipads*/
-@media screen and (min-width:601px) and (max-width:968px){
+@media screen and (min-width:601px) and (max-width:1200px){
 /*header*/
     .image__logo{
     width:30%;
@@ -288,8 +288,11 @@ body,html{
     justify-content: center;
 }
 /*contact*/
+.logo{
+    justify-content: center;
+}
 .image-contact img{
-    width: 95%;
+    width: 90%;
 }
 .image-rabbit-contact{
     width: 12%;
