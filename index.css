@@ -286,4 +286,12 @@ body,html{
     height: 35%;
     width: 35%;
 }
+/*contact*/
+.image-contact img{
+    width: 95%;
+}
+.image-rabbit-contact{
+    width: 12%;
+    height: 8%;
+}
 }
