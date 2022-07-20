@@ -255,12 +255,23 @@ body,html{
 .image__logo{
     width:30%;
     height: 70%;
-    
 }
 .info{
     width: 40%;
 }
 .info::before{
     left: 2%;
+}
+.cards{
+    width: 85%;
+}
+.cards__project{
+    width: 40%;
+    height: 30%;
+    align-items: center;
+}
+.image-engine{
+    height: 35%;
+    width: 35%;
 }
 }
