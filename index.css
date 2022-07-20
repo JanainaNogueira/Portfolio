@@ -221,7 +221,7 @@ body,html{
     }
     /*Imagem coelho*/
     .image-rabbit-stacks{
-        top: 114.5%;
+        top: 114%;
         height: 15%;
         width: 30%;
     }
@@ -252,16 +252,28 @@ body,html{
 }
 /*tablet and ipads*/
 @media screen and (min-width:601px) and (max-width:968px){
-.image__logo{
+/*header*/
+    .image__logo{
     width:30%;
     height: 70%;
 }
+/*home*/
 .info{
     width: 40%;
 }
 .info::before{
     left: 2%;
 }
+/*stacks*/
+.logo{
+    width: 20%;
+}
+.image-rabbit-stacks{
+    width: 20%;
+    height: 15%;
+    top: 114%;
+}
+/*projects*/
 .cards{
     width: 85%;
 }
