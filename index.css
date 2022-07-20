@@ -204,7 +204,6 @@ body,html{
         display: none;
     }
     .info{
-        display: flex;
         flex-direction: column;
         width: 80%;
         align-items: center;
@@ -256,5 +255,12 @@ body,html{
 .image__logo{
     width:30%;
     height: 70%;
+    
+}
+.info{
+    width: 40%;
+}
+.info::before{
+    left: 2%;
 }
 }
