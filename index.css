@@ -285,6 +285,7 @@ body,html{
 .image-engine{
     height: 35%;
     width: 35%;
+    justify-content: center;
 }
 /*contact*/
 .image-contact img{
