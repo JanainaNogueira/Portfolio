@@ -1,0 +1,12 @@
+.container{
+    min-height: 15%;
+    background-color: #1D184B;
+}
+.box_copy{
+    background-color: #100D29;
+    text-align: center;
+}
+.box_copy p{
+    color: #ffffff;
+    font-size: small;
+}
