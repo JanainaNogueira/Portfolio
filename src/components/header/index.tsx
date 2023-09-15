@@ -1,13 +1,13 @@
 import logo from "../../assets/img/logo.png"
-import "./index.css"
+import Styles from "./index.module.css"
 
 function Header(){
     return(
-    <div className="header">
-            <div className="logo">
+    <div className={Styles.header}>
+            <div className={Styles.logo}>
                 <img src={logo}/>
             </div>
-            <ul className="navegacao">
+            <ul className={Styles.navegacao}>
                 <li><a>Projects</a></li>
                 <li><a>Tecnologies</a></li>
                 <li><a>Contact</a></li>
