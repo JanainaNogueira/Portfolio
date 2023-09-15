@@ -1,4 +1,5 @@
 import './App.css'
+import Contact from './components/contact'
 import Header from "./components/header"
 import Presentation from './components/presentation'
 import Projects from './components/projects'
@@ -11,6 +12,7 @@ function App() {
      <Presentation/>
      <Stacks/>
      <Projects/>
+     <Contact/>
     </>
   )
 }
